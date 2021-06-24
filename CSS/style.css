@@ -1,0 +1,12 @@
+.menu{
+ background: rgb(255, 255, 255);
+}
+/*  Pseudo-classe*/
+/* hover: mouse em cima */
+a:hover{
+    font-size: 25px;
+}
+/* Atributos */
+input[type="submit"]{
+    font-weight: bold;
+}
