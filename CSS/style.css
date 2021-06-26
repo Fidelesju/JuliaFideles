@@ -1,12 +1,26 @@
-.menu{
- background: rgb(255, 255, 255);
+*{
+    box-sizing: border-box;
 }
-/*  Pseudo-classe*/
-/* hover: mouse em cima */
-a:hover{
-    font-size: 25px;
+@font-face{
+    font-family: "Source Sans Pro";
+    src: url('../fonts/source-sans-pro/SourceSansPro-Regular.otf');
 }
-/* Atributos */
-input[type="submit"]{
+@font-face{
+    font-family: "Source Sans Pro";
+    src: url('../fonts/source-sans-pro/SourceSansPro-Bold.otf');
     font-weight: bold;
+}
+body{
+    font-family: "Source Sans Pro";
+}
+.cabecalho{
+    background: white;
+}
+.logo{
+    background-image: url(../img/Logo\ Julia\ Fideles\ Lateral.png);
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 55px;
+    text-indent: -9999px;
+    padding: 20px;
 }
