@@ -5,23 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Julia Fideles</title>
-    <link rel="stylesheet" href="CSS/normalize.css"/>
+    <title>Julia Fideles - Sobre </title>
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/normalize.css" />
+    <link rel="stylesheet" href="CSS/style-pagina.css" />
 </head>
 
 <body>
-    <!-- Criação do Cabeçalho -->
-    <header>
-        <a href="index.html">Julia Fideles</a>
-        <nav>
-            <button>
-                Abrir/fechar menu
-            </button>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="sobre.html">Sobre Nós</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="contato.html">Contato</a></li>
+     <!-- Criação do Cabeçalho -->
+    <header class="cabecalho">
+        <a href="index.html" class="logo">Julia Fideles</h1>
+        <nav class="menu-principal">
+            <button class="menu-principal__btn ">Abrir/Fecha menu</button>
+            <ul class="menu-principal__lista">
+                <li><a class="menu-principal__item " href="index.html">Home</a></li>
+                <li><a class="menu-principal__item menu-principal__item--atual" href="sobre.html">Sobre Nós</a></li>
+                <li><a class="menu-principal__item " href="portfolio.html">Portfolio</a></li>
+                <li><a class="menu-principal__item " href="contato.html">Contato</a></li>
             </ul>
         </nav>
     </header>
@@ -30,11 +30,11 @@
     <main>
        <h1>Sobre Nós</h1>
        <article>
-           <header>
-               <h1>Sobre Nós</h1>
+           <header class="pagina-cabecalho">
+               <h1 class="pagina-cabecalho__titulo">Sobre Nós</h1>
            </header>
-           <section>
-              <p> Aliquam erat volutpat. Vivamus cursus pulvinar turpis</p>
+           <section class="pagina-conteudo">
+              <p class="text-center"> Aliquam erat volutpat. Vivamus cursus pulvinar turpis</p>
              <img src="img/julia1.jpg" alt="Julia tirando foto no espelho">
              <p>Integer vulputate vulputate nulla, nec malesuada nibh imperdiet ut. Nulla vulputate pellentesque nisi, at mattis purus. Nam est elit, aliquet lacinia scelerisque a, viverra sed dolor. Etiam interdum dolor sit amet dolor lobortis, ac blandit libero euismod. Phasellus aliquet lectus magna. </p>
              <p>Cras porta erat nec lorem euismod, non facilisis risus tincidunt. Proin at tempus lorem. Nulla facilisi. Maecenas bibendum quam vitae iaculis porttitor. Cras suscipit rutrum lorem quis consequat. Pellentesque in tempor libero, eu semper eros. Cras mollis mauris tellus, a euismod nunc consectetur ac. 
@@ -44,31 +44,36 @@
        </article>
     </main>
 
-    <!-- Criação do rodapé -->
-    <footer>
-        <div>
-           <div>
-               <a href="index.html">Julia Fideles</a>
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis nobis illum dolore incidunt mollitia repellendus numquam vel necessitatibus, quia dolorum harum sunt modi sequi recusandae nemo doloribus itaque eveniet eum.</p>
-           </div>
-           <div>
-               <h2>Social</h2>
-               <ul>
-                   <li><a href="https://www.linkedin.com/in/julia-fideles-5b01b6186/" target="_blank">Linkedin</a></li>
-                   <li><a href="https://github.com/Fidelesju" target="_blank">GitHub </a></li>
-                   <li><a href="https://www.instagram.com/fidelesju/" target="_blank">Instagram</a></li>
-            </ul>
-           </div>
-           <div>
-               <h2>Links</h2>
-               <li><a href="index.html">Home</a></li>
-                <li><a href="sobre.html">Sobre Nós</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="contato.html">Contato</a></li>
-           </div>
+      <!-- Criação do rodapé -->
+      <footer class="rodape">
+        <div class="rodape__linha-1">
+            <div class="rodape__coluna"> 
+                <a href="index.html" class="logo">Julia Fideles</a>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis nobis illum dolore incidunt mollitia
+                    repellendus numquam vel necessitatibus, quia dolorum harum sunt modi sequi recusandae nemo doloribus
+                    itaque eveniet eum.</p>
+            </div>
+            <div class="rodape__coluna">
+                <h2 class="rodape__titulo">Social</h2>
+                <ul class="rodape__lista-links">
+                    <li><a class="rodape__lista-links__item" href="https://www.linkedin.com/in/julia-fideles-5b01b6186/" target="_blank">Linkedin</a></li>
+                    <li><a class="rodape__lista-links__item" href="https://github.com/Fidelesju" target="_blank">GitHub </a></li>
+                    <li><a class="rodape__lista-links__item" href="https://www.instagram.com/fidelesju/" target="_blank">Instagram</a></li>
+                </ul>
+            </div>
+            <div class="rodape__coluna">
+                <h2 class="rodape__titulo">Links</h2>
+                <ul class="rodape__lista-links">
+                    <li><a class="rodape__lista-links__item" href="index.html">Home</a></li>
+                    <li><a class="rodape__lista-links__item" href="sobre.html">Sobre Nós</a></li>
+                    <li><a class="rodape__lista-links__item" href="portfolio.html">Portfolio</a></li>
+                    <li><a class="rodape__lista-links__item" href="contato.html">Contato</a></li>
+                </ul>
+
+            </div>
         </div>
-        <div>
-            2021 - Todos os direitos reservados - Julia Fideles
+        <div class="rodape__linha-2">
+            © 2021 - Todos os direitos reservados - Julia Fideles
         </div>
     </footer>
 </body>
