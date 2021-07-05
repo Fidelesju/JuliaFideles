@@ -17,6 +17,7 @@
     text-align: center;
     text-transform: uppercase;
     padding: 20px;
+    margin-top: 20px;
 }
 .home__titulo::after{
     content: '';
