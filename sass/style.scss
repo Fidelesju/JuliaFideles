@@ -1,0 +1,28 @@
+/* Import SASS abstracts*/
+@import 'abstracts/_colors';
+@import 'abstracts/_breakpoints';
+
+
+/* Import SASS base*/
+@import 'base/_fonts';
+@import 'base/_my-reset';
+@import 'base/_normalize';
+
+/* Import SASS layout*/
+@import 'layout/_footer';
+@import 'layout/_header';
+
+/* Import SASS components*/
+@import 'components/_aling-text';
+@import 'components/_content-page';
+@import 'components/_form';
+@import 'components/_header-page';
+@import 'components/_logo';
+@import 'components/_main-menu';
+@import 'components/_services';
+
+/* Import SASS pages*/
+@import 'pages/_contact';
+@import 'pages/_home-page';
+@import 'pages/_portilofio';
+
